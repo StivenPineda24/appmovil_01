@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style04_03.css" type="text/css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>DASHBOARD</h1>
+        <P>Estados de venta</P>
+        <nav class="menu">
+            <a href="#Resumen">Resumen</a>
+            <a href="#Ventas">Ventas</a>
+            <a href="#Clientes">Clientes</a>
+            <a href="#Pie">Pie</a>
+        </nav>
+
+    </header>
+    <main class="contenedor">
+        <section class="tarjetas" id="Resumen">
+            <div class="tarjeta azul">
+                <h2>Ventas</h2>
+                <p>s/.5,000</p>
+            </div> 
+            <div class="tarjeta verde">
+                <h2>Pedidos</h2>
+                <p>400</p>
+            </div>
+            <div class="tarjeta naranja">
+                <h2>Clintes</h2>
+                <p>320</p>
+            </div>
+        </section>
+        <section class="caja" id="Ventas">
+            <h2>Últimas Ventas</h2>
+            <div class="grafico">
+                <div class="barra" style="height:20%;"><span>Ago</span></div>
+                <div class="barra" style="height:50%;"><span>Set</span></div>
+                <div class="barra" style="height:80%;"><span>Oct</span></div>
+            </div>
+
+        </section>
+        <section class="caja" id="Clientes">
+            <h2>Clientes</h2>
+            <table>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Producto</th>
+                    <th>Monto</th>
+
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Teclado</td>
+                    <td>S/.50.00</td>
+                </tr>
+                <tr>
+                    <td>Rosa</td>
+                    <td>Monitor</td>
+                    <td>S/320.00</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>Memoria RAM</td>
+                    <td>S/.250.00</td>
+                </tr>
+            </table>
+
+        </section>
+
+    </main>
+    <footer class="pie" id="pie">
+        <P>Nicol Gladys De la Cruz Casavilca</P>
+
+    </footer>
+</body>
+</html>

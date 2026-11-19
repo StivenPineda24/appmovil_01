@@ -12,7 +12,7 @@ class _ScreenCalculadoraState extends State<ScreenCalculadora> {
   final numero1 = TextEditingController();
   final numero2 = TextEditingController();
 
-  final objetocalculadora = CalculadoraController1();
+  final objetocalculadora = CalculadoraController();
 
   double respuesta = 0;
 
