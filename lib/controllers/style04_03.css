@@ -91,6 +91,12 @@ body{
     background-color: blueviolet;
     border-radius: 10px 10px 0 0;
     position: relative;
+
+    transform: scaleY(0);
+    transform-origin: center;
+    animation: crecerbarra 1.8s ease-out forwards;
+
+
 }
 .barra span{
     position: absolute;
@@ -128,5 +134,14 @@ th:first-child{
 @media (max-width:600px){
     .tarjetas{
         flex-direction: column;
+    }
+}
+
+@keyframes crecerbarra {
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
     }
 }
